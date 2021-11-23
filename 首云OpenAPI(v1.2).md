@@ -690,6 +690,7 @@ def add_disk(vm_id):
 | InstanceId | string | 是       | f9053ea8-fc23-4032-8a7f-01def77b4cc0 | 云服务器的编号，可以在查询云服务器详情中查出 |
 | DiskId     | string | 是       | a67644ba-873f-11e9-bf49-0242ac1104e7 | 硬盘编号                                     |
 | DataSize   | int    | 是       | 100                                  | 硬盘扩容后的大小                             |
+| IOPS	     | int    |	否	| 5	                               | IOPS预置性能包个数                          |
 
 ​	**返回参数：**
 
